@@ -1,0 +1,20 @@
+{
+  "name": "bs-portfolio-project",
+  "version": "1.0.0",
+  "description": "Bootstrap Portfolio Project: Creating a bakery website for Sugar Bees",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite",
+    "lite": "lite-server"
+  },
+  "author": "Aubrey Reinhart",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0"
+  }
+}
