@@ -1,16 +1,11 @@
-.navbar {
+#beeNavbar {
     background-color: #4C956C;
     margin: 0;
     padding: 10px;
-}
-
-nav ul {
     list-style-type: none; 
     font: 20px "Raleway", sans-serif; 
-}
-
-body {
-    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    color: black;
 }
 
 footer { 
@@ -19,9 +14,13 @@ footer {
     background-color: #4C956C;
     color: white;
 }
+.carousel {
+    border: black 2px;
+}
 
-footer div {
+#beeFooter {
     font: 20px "Raleway", sans-serif; 
+    text-align: right;
 }
 
 #beeEmail, #beePhone{
@@ -29,3 +28,55 @@ footer div {
     text-decoration: none;
 }
 
+.carousel-caption {
+    font: 20px "Raleway", sans-serif;
+    color: white;
+    background-color: rgba(117, 114, 105, 0.322); 
+}
+
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+}
+
+h3 {
+    font: 40px "Caveat", sans-serif; 
+    font-weight: 500;
+}
+
+h4 {
+    font: 20px "Raleway", sans-serif; 
+}
+
+p {
+    font: 20px "Raleway", sans-serif; 
+}
+
+#aboutSection {
+    margin: 0;
+    padding: 10px;
+}
+
+.row-content {
+    margin: 5px;
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+    text-align: center;
+}
+
+a, a:hover {
+    color: #2C6E49;
+    text-decoration: none;
+}
+
+#addInfo p {
+    font: 15px "Raleway", sans-serif; 
+}
+
+#addInfo {
+    margin: 5px;
+    padding: 10px;
+}
