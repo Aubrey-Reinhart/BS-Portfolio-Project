@@ -1,6 +1,5 @@
 .navbar {
     background-color: #4C956C;
-    margin: 0;
     padding: 10px;
     list-style-type: none; 
     font: 20px "Raleway", sans-serif; 
@@ -9,6 +8,13 @@
     background-image: linear-gradient(to right, #225538, #4C956C, #FEFEE3, #FFC9B9);
 }
 
+#beeFooter { 
+    padding: 20px 0;
+    background-image: linear-gradient(to right, #225538, #4C956C, #FEFEE3, #FFC9B9);
+    color: white;
+    font: 20px "Raleway", sans-serif; 
+    text-align: left;
+}
 #homeIcon {
     font: 40px "Caveat", sans-serif; 
     font-weight: 500;
@@ -23,20 +29,12 @@
     font: 20px "Caveat", sans-serif;
 }
 
-footer { 
-    margin: 0;
-    padding: 20px;
-    background-image: linear-gradient(to right, #225538, #4C956C, #FEFEE3, #FFC9B9);
-    color: white;
+#accordion {
+    
 }
 
 .carousel {
     border: black 2px;
-}
-
-#beeFooter {
-    font: 20px "Raleway", sans-serif; 
-    text-align: left;
 }
 
 #beeEmail, #beePhone{
@@ -87,8 +85,6 @@ a, a:hover {
     color: #D68C45;
     text-decoration: none;
 }
-
-
 
 #addInfo p {
     font: 15px "Raleway", sans-serif; 
